@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+irsa_headers.txt
+
+# Temporary files
+*.log
+*.tmp
+
+# Generated manifests
+records/manifests/*.json
+# Generated packaging metadata
+*.egg-info/
+
+# Node
+node_modules/
+frontend/dist/
